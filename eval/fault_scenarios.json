@@ -1,0 +1,162 @@
+[
+  {
+    "id": "fault-lat-1",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-2",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-3",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-4",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-5",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-6",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-lat-7",
+    "fault_type": "LATENCY_SPIKE",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-err-1",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-2",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-3",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-4",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-5",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-6",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-err-7",
+    "fault_type": "ERROR_BURST",
+    "service": "db-writer",
+    "expected_anomaly": "MULTIVARIATE_SYSTEM_FAULT",
+    "expected_severity": "P2",
+    "ground_truth_root_cause": "connection pool"
+  },
+  {
+    "id": "fault-oom-1",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-oom-2",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-oom-3",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-oom-4",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-oom-5",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  },
+  {
+    "id": "fault-oom-6",
+    "fault_type": "OOM_CRASH",
+    "service": "rag-retrieval",
+    "expected_anomaly": "STATISTICAL_LATENCY_SPIKE",
+    "expected_severity": "P1",
+    "ground_truth_root_cause": "increased batch size beyond GPU memory limits"
+  }
+]
