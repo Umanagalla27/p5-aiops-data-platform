@@ -21,9 +21,7 @@ class HybridAnomalyDetector:
     def __init__(self, z_score_threshold: float = 3.0):
         self.z_score_threshold = z_score_threshold
         # Unsupervised Isolation Forest for multivariate anomaly detection
-        self.iso_forest = IsolationForest(
-            n_estimators=100, contamination=0.03, random_state=42
-        )
+        self.iso_forest = IsolationForest(n_estimators=100, contamination=0.03, random_state=42)
         self.is_fitted = False
         self.history_latency: list[float] = []
 
@@ -89,4 +87,3 @@ class HybridAnomalyDetector:
         # Update sliding window
         self.history_latency.append(event.latency_ms)
         return None
-
